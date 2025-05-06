@@ -15,6 +15,7 @@
     <types>CatalogRef.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.КонтрагентыПрисоединенныеФайлы</types>
+    <types>CatalogRef.НЕТ_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogRef.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
   </type>
