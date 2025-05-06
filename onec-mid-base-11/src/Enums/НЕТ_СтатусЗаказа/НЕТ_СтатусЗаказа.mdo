@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea4f0aee-81a2-4c35-9f70-9799655df853">
+  <producedTypes>
+    <refType typeId="a68713a2-a69f-4893-a7d8-3b929b1f6ead" valueTypeId="4e81191b-212f-4212-913e-c421ee04c082"/>
+    <listType typeId="25021db3-c2c7-4c3f-b1b0-8538a242887b" valueTypeId="b53b225a-add6-422b-84ee-580392da5060"/>
+    <managerType typeId="d30c055b-63cb-41bc-96ae-dd70d7f398f8" valueTypeId="66e097fd-89dd-4037-a652-f64445a25b7b"/>
+  </producedTypes>
+  <name>НЕТ_СтатусЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы заказов</value>
+  </listPresentation>
+  <enumValues uuid="72de3f07-d5b9-4f3a-b831-e8b9cc00bebf">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6d667d1-07e5-4c36-8173-04692b7f7019">
+    <name>ОбратитьВнимание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обратить внимание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52f99f2b-5a02-4dd3-90be-a24ece938d23">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
